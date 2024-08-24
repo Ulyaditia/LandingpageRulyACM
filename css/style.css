@@ -19,7 +19,7 @@
 body {
   background: var(--bg-color);
   color: var(--text-color);
-  overflow: hidden;
+  overflow-x: hidden;
 }
 header {
   position: fixed;
@@ -162,6 +162,7 @@ span {
   max-width: 100%;
   width: 400px;
   height: auto;
+  overflow-x: hidden;
   animation: customAni 15s ease 0s infinite normal none;
 }
 header.sticky {
